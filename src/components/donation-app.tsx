@@ -28,7 +28,7 @@ export default function DonationApp() {
 
   if (showThankYou) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-orange-100 via-pink-50 to-purple-100 flex items-center justify-center p-4">
+      <div className="min-h-screen bg-gradient-to-br from-blue-100 via-blue-50 to-sky-100 flex items-center justify-center p-4">
         <Card className="w-full max-w-md p-8 text-center bg-white/80 backdrop-blur-sm border-orange-200/50 shadow-xl">
           <div className="space-y-6">
             <div className="text-6xl">❤️</div>
@@ -53,7 +53,7 @@ export default function DonationApp() {
 
   if (selectedAmount) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-orange-100 via-pink-50 to-purple-100 flex items-center justify-center p-4">
+      <div className="min-h-screen bg-gradient-to-br from-blue-100 via-blue-50 to-sky-100 flex items-center justify-center p-4">
         <Card className="w-full max-w-md p-6 bg-white/80 backdrop-blur-sm border-orange-200/50 shadow-xl">
           <div className="space-y-6">
             <div className="text-center">
@@ -88,7 +88,7 @@ export default function DonationApp() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-100 via-pink-50 to-purple-100 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-blue-100 via-blue-50 to-sky-100 flex items-center justify-center p-4">
       <Card className="w-full max-w-md p-6 bg-white/80 backdrop-blur-sm border-orange-200/50 shadow-xl">
         <div className="space-y-6">
           <div className="text-center">
